@@ -1,0 +1,61 @@
+html, body{
+  background-color:#E8E8E8;
+}
+
+.navbar{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.logo{
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+
+.col-5{
+  position: relative;
+  top: 40px;
+}
+
+.login{
+  background-color: whitesmoke;
+}
+
+.font-header{
+  font-family:cursive;
+}
+
+.username{
+  font-family: cursive;
+
+}
+
+.password{
+  font-family: cursive;
+
+}
+
+input{
+    height: 10%;
+    width: 50%;
+  
+   
+  }
+
+button{
+  position: relative;
+  left: 43%;
+  font-family: cursive;
+  color: #404040;
+}
+
+a {
+  font-family: cursive; 
+  font-size: 1.2rem;
+ }
+
+ .password-input{
+   position: relative;
+   left: 5px;
+ }
+
