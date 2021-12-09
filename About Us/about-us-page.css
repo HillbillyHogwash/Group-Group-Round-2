@@ -1,0 +1,59 @@
+html, body{
+    background-color: white;
+  }
+  
+  .navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .logo{
+    font-family: cursive;
+    font-size: 1.5rem;
+  }
+
+.jumbotron{
+    font-family: cursive;
+    top: 45px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-color: white;
+    border-top: solid #404040 2px;
+    border-bottom: solid #404040 1px;
+
+}
+
+.first-img{
+    position: fixed;
+    top: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 35px;
+    padding-bottom: 0px;
+}
+
+
+
+.col-8{
+    position: fixed;
+    top: 250px;
+    left: 390px;
+    height: 50%;
+    width: 1000px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 1.5rem;
+    font-family: cursive;
+
+}
+
+a {
+  font-family: cursive; 
+  font-size: 1.2rem;
+ }

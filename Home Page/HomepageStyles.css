@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    justify-content: left;
+    background-color: rgb(87, 85, 85);
+    overflow:auto;
+}
+
+#html{
+    background-color:silver;
+    }
+
+#UpdateBar {
+    background-color: gray;
+    position: right sticky;
+    width: 100%;
+    height: 50px;
+    text-align:center;
+    font-size: 2rem;
+    position:relative;
+    overflow:hidden;
+    box-sizing: border-box;
+    border-bottom: solid black 3px;
+    margin: 0;
+}
+
+#DealsBar {
+    background-color: gray;
+    position: right sticky;
+    width: 100%;
+    height: 25px;
+    text-align:left;
+    font-size: 1rem;
+    position:relative;
+    overflow:hidden;
+    box-sizing: border-box;
+    border-bottom: solid black 3px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+#ourLogo {
+    max-width: 100px; 
+    margin-left: 10px;
+    margin-right:60px;
+}
+
+.btn {
+    background-color: silver;
+    color: black;
+    margin-left: .5rem;
+    float:right;
+    margin-right: .5rem;
+    overflow:hidden;
+    box-sizing: border-box;
+    border: solid black 2px;
+    margin-top:4px;
+}
+
+#CompanyName {
+    font-family: cursive;
+    float:left;
+    overflow:hidden;
+    box-sizing: border-box;
+    border: solid black 3px;
+    margin:5px 150px 10px;
+    padding-right:50px;
+}
+
+#Support { 
+    float:left;
+}
+
+#NavBar {
+    margin: 0px;
+    box-sizing: border-box;
+    border: solid black 3px;
+    background-color: silver;
+    overflow:hidden;
+    justify-content:center;
+    padding: 0;
+    background-color: silver;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    border: solid black 0px;
+    overflow: hidden;
+    margin-left:2px;
+    float: left;
+    margin-bottom: 2px;
+}
+
+#NavSearchForm {
+    float: right;
+    margin: 4px 0;
+}
+
+#NavHome {
+    padding: 4px 4px;
+    background-color: purple;
+    color:whitesmoke;
+    box-sizing: border-box;
+    border: solid rgb(70, 6, 90) 2px;
+    border-radius:4px;
+}
+
+#NavSearch {
+    background-color: silver;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    overflow:hidden;
+    box-sizing: border-box;
+    border: solid black 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 25px;
+    font-size: 1rem;
+}
+
+#CarouselProducts {
+    max-height:1000px ;
+    width: 100%;
+    overflow:hidden;
+}
+
+#footer {
+    background-color: rgb(4, 2, 17);
+    position: relative;
+    float: center;
+    justify-content: center;
+    left: 50%;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #ourLogo {
+        display:none;
+    }
+
+    #CompanyName {
+        margin-left:5%;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+    #CompanyName {
+        margin:30px 25% 30px 30px;
+        float:right;
+    }
+    .btn {
+        float: left;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    #Support {
+        margin-left: 20%;
+    }
+
+    #contact {
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    #CompanyName {
+        margin:30px 20% 30px 30px;
+        float:right;
+    }
+    .btn {
+        float: left;
+        margin-left: 10px;
+    }
+    #Support {
+        margin-left: 30px;
+    }
+
+    #contact {
+        display:none;
+    }
+
+    #CarouselProduct .img {
+        max-height:50px;
+    }
+
+    H2 {
+        font-size: 1rem;
+        overflow:hidden;
+    }
+    
+}
