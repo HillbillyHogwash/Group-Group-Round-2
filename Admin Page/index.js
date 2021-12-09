@@ -44,7 +44,7 @@ const getProduct = () => {
 
 // will be used when data persists
 const createProductList = (product) => {
-    for (let i = 0; i < gear.length; i++){
+    for (let i = 0; i < product.length; i++){
         let newRow = document.createElement("tr")
         newRow.innerHTML = `<tr>
         <th scope="row"><img class="img-thumbnail" src="${product[i].picUrl}"></th>
@@ -74,8 +74,8 @@ const addItemToProductList = (product) => {
 const loadLocalStorage = () => {
     if (localStorage.getItem("product")){
         console.log("product exists");
-        let gear = JSON.parse(localStorage.getItem("product"));
-        createGearList(product);
+        let product = JSON.parse(localStorage.getItem("product"));
+        createProductList(product);
     } else {
         console.log("no product")
     }
